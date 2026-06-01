@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flávia D. Silva — Desenvolvedora Front-End | Sites Profissionais para Empresas</title>
+  <meta name="description" content="Portfólio de Flávia D. Silva — Desenvolvedora Front-End especializada em criar sites profissionais, modernos e de alta performance para empresas e negócios." />
+  <meta name="keywords" content="desenvolvedora front-end, criação de sites, websites profissionais, portfólio, desenvolvimento web" />
+  <meta name="author" content="Flávia D. Silva" />
+  <meta property="og:title" content="Flávia D. Silva — Desenvolvedora Front-End" />
+  <meta property="og:description" content="Sites profissionais que transformam a presença digital da sua empresa." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Flávia<span class="logo-dot">.</span>dev<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#contato" class="nav-link nav-cta-link">Fale Comigo</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO / HOME ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-effects">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge animate-on-scroll">
+        <span class="badge-dot"></span>
+        Disponível para novos projetos
+      </div>
+      <h1 class="hero-title animate-on-scroll">
+        Transformo ideias em<br />
+        <span class="hero-gradient-text">experiências digitais</span><br />
+        que geram resultados.
+      </h1>
+      <p class="hero-subtitle animate-on-scroll">
+        Desenvolvedora Front-End especializada em criar sites profissionais, modernos e de alta performance — projetados para elevar a presença digital de empresas e conquistar clientes.
+      </p>
+      <div class="hero-buttons animate-on-scroll">
+        <a href="#projetos" class="btn btn-primary">
+          <span>Ver Projetos</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+        <a href="#contato" class="btn btn-outline">
+          <span>Vamos Conversar</span>
+          <i class="ph ph-chat-dots"></i>
+        </a>
+      </div>
+      <div class="hero-stats animate-on-scroll">
+        <div class="stat-item">
+          <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Projetos Entregues</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Clientes Satisfeitos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Comprometimento</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MIM ============ -->
+  <section class="section sobre" id="sobre">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">&lt;sobre /&gt;</span>
+        <h2 class="section-title">Quem está por trás<br />do <span class="highlight">código</span></h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-image-col animate-on-scroll">
+          <div class="sobre-image-wrapper">
+            <div class="sobre-image-frame">
+              <div class="sobre-image-placeholder">
+                <i class="ph ph-user-circle"></i>
+                <span>Sua foto aqui</span>
+              </div>
+            </div>
+            <div class="sobre-image-decoration"></div>
+          </div>
+          <div class="sobre-tech-stack">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">Figma</span>
+          </div>
+        </div>
+        <div class="sobre-text-col animate-on-scroll">
+          <h3 class="sobre-greeting">Olá! Eu sou a Flávia 👋</h3>
+          <p class="sobre-bio">
+            Sou <strong>Desenvolvedora Front-End</strong> em formação na área de TI, mas minha jornada com tecnologia começou muito antes do primeiro dia de aula. Sempre fui fascinada por como um site bem feito pode transformar a percepção de uma marca — e foi exatamente isso que me levou a mergulhar de cabeça no universo do desenvolvimento web.
+          </p>
+          <p class="sobre-bio">
+            Minha especialidade está em <strong>criar interfaces modernas, responsivas e estrategicamente pensadas</strong> para gerar resultados reais. Eu não apenas escrevo código: eu entendo o problema do cliente, estudo o mercado e entrego uma solução digital que faz diferença no dia a dia do negócio.
+          </p>
+          <p class="sobre-bio">
+            Além da parte técnica, carrego comigo habilidades que fazem toda a diferença em projetos: <strong>liderança de equipe, gestão de pessoas e resolução de conflitos</strong>. Acredito que um bom projeto nasce de uma boa comunicação — e é por isso que cada cliente que trabalha comigo tem a certeza de estar sendo ouvido.
+          </p>
+          <div class="sobre-cta">
+            <a href="#contato" class="btn btn-primary btn-sm">
+              <span>Bora trocar uma ideia?</span>
+              <i class="ph ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS EM DESTAQUE ============ -->
+  <section class="section projetos" id="projetos">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">&lt;projetos /&gt;</span>
+        <h2 class="section-title">Projetos em<br /><span class="highlight">Destaque</span></h2>
+        <p class="section-description">Cada projeto é um desafio único. Confira como transformei problemas reais em soluções digitais de impacto.</p>
+      </div>
+      <div class="projetos-grid">
+
+        <!-- Projeto 1 -->
+        <article class="projeto-card animate-on-scroll" id="projeto-1">
+          <div class="projeto-card-inner">
+            <div class="projeto-image">
+              <div class="projeto-image-placeholder">
+                <i class="ph ph-monitor"></i>
+                <span>Preview do Projeto</span>
+              </div>
+              <div class="projeto-overlay">
+                <a href="#" class="projeto-link" aria-label="Ver projeto ao vivo">
+                  <i class="ph ph-arrow-square-out"></i>
+                </a>
+                <a href="#" class="projeto-link" aria-label="Ver código no GitHub">
+                  <i class="ph ph-github-logo"></i>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-content">
+              <div class="projeto-tags">
+                <span class="projeto-tag">Landing Page</span>
+                <span class="projeto-tag">UI/UX</span>
+              </div>
+              <h3 class="projeto-title">Site Institucional — [Nome da Empresa]</h3>
+              <div class="projeto-details">
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-warning-circle"></i> O Desafio
+                  </span>
+                  <p>A empresa não possuía presença digital e perdia clientes para concorrentes que já estavam online. Precisava de um site que transmitisse credibilidade e profissionalismo.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-lightbulb"></i> A Solução
+                  </span>
+                  <p>Desenvolvi uma landing page moderna, totalmente responsiva, com foco em conversão. Utilizei técnicas de copywriting estratégico e design orientado a resultados.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-chart-line-up"></i> O Resultado
+                  </span>
+                  <p>Aumento de 40% nos contatos recebidos via site no primeiro mês e melhora significativa na percepção de marca da empresa.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="projeto-card animate-on-scroll" id="projeto-2">
+          <div class="projeto-card-inner">
+            <div class="projeto-image">
+              <div class="projeto-image-placeholder">
+                <i class="ph ph-storefront"></i>
+                <span>Preview do Projeto</span>
+              </div>
+              <div class="projeto-overlay">
+                <a href="#" class="projeto-link" aria-label="Ver projeto ao vivo">
+                  <i class="ph ph-arrow-square-out"></i>
+                </a>
+                <a href="#" class="projeto-link" aria-label="Ver código no GitHub">
+                  <i class="ph ph-github-logo"></i>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-content">
+              <div class="projeto-tags">
+                <span class="projeto-tag">E-commerce</span>
+                <span class="projeto-tag">Responsivo</span>
+              </div>
+              <h3 class="projeto-title">Plataforma Digital — [Nome do Negócio]</h3>
+              <div class="projeto-details">
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-warning-circle"></i> O Desafio
+                  </span>
+                  <p>O negócio operava exclusivamente de forma presencial e precisava escalar suas vendas. O site antigo era lento, confuso e não inspirava confiança no consumidor.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-lightbulb"></i> A Solução
+                  </span>
+                  <p>Criei uma interface limpa e intuitiva, com navegação simplificada, carregamento rápido e design pensado para a jornada de compra do cliente.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-chart-line-up"></i> O Resultado
+                  </span>
+                  <p>Tempo de permanência no site aumentou em 60%, taxa de rejeição caiu pela metade e as vendas online representaram 35% do faturamento em 3 meses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="projeto-card animate-on-scroll" id="projeto-3">
+          <div class="projeto-card-inner">
+            <div class="projeto-image">
+              <div class="projeto-image-placeholder">
+                <i class="ph ph-layout"></i>
+                <span>Preview do Projeto</span>
+              </div>
+              <div class="projeto-overlay">
+                <a href="#" class="projeto-link" aria-label="Ver projeto ao vivo">
+                  <i class="ph ph-arrow-square-out"></i>
+                </a>
+                <a href="#" class="projeto-link" aria-label="Ver código no GitHub">
+                  <i class="ph ph-github-logo"></i>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-content">
+              <div class="projeto-tags">
+                <span class="projeto-tag">Dashboard</span>
+                <span class="projeto-tag">SPA</span>
+              </div>
+              <h3 class="projeto-title">Painel Administrativo — [Nome do Projeto]</h3>
+              <div class="projeto-details">
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-warning-circle"></i> O Desafio
+                  </span>
+                  <p>A equipe interna da empresa usava planilhas e processos manuais para gerenciar dados, o que gerava erros e retrabalho constante.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-lightbulb"></i> A Solução
+                  </span>
+                  <p>Desenvolvi um painel administrativo interativo com visualização de dados em tempo real, filtros dinâmicos e interface otimizada para produtividade.</p>
+                </div>
+                <div class="projeto-detail">
+                  <span class="detail-label">
+                    <i class="ph ph-chart-line-up"></i> O Resultado
+                  </span>
+                  <p>Redução de 70% no tempo de gestão de dados e eliminação de erros manuais, permitindo que a equipe focasse em tarefas estratégicas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVIÇOS / HABILIDADES ============ -->
+  <section class="section servicos" id="servicos">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">&lt;serviços /&gt;</span>
+        <h2 class="section-title">O que eu<br /><span class="highlight">posso fazer</span> por você</h2>
+        <p class="section-description">Combino habilidades técnicas com visão estratégica para entregar soluções completas.</p>
+      </div>
+      <div class="servicos-grid">
+
+        <div class="servico-card animate-on-scroll" id="servico-sites">
+          <div class="servico-icon-wrapper">
+            <i class="ph ph-code"></i>
+          </div>
+          <h3 class="servico-title">Criação de Sites Profissionais</h3>
+          <p class="servico-desc">Landing pages, sites institucionais e plataformas digitais desenvolvidas com código limpo, performance otimizada e design que converte visitantes em clientes.</p>
+          <ul class="servico-list">
+            <li><i class="ph ph-check-circle"></i> HTML5 semântico & acessível</li>
+            <li><i class="ph ph-check-circle"></i> CSS3 moderno & responsivo</li>
+            <li><i class="ph ph-check-circle"></i> JavaScript interativo</li>
+          </ul>
+        </div>
+
+        <div class="servico-card animate-on-scroll" id="servico-ui">
+          <div class="servico-icon-wrapper">
+            <i class="ph ph-figma-logo"></i>
+          </div>
+          <h3 class="servico-title">Design de Interfaces (UI/UX)</h3>
+          <p class="servico-desc">Interfaces pensadas na experiência do usuário. Cada elemento é posicionado estrategicamente para guiar o visitante até a ação desejada.</p>
+          <ul class="servico-list">
+            <li><i class="ph ph-check-circle"></i> Prototipação no Figma</li>
+            <li><i class="ph ph-check-circle"></i> Design responsivo mobile-first</li>
+            <li><i class="ph ph-check-circle"></i> Testes de usabilidade</li>
+          </ul>
+        </div>
+
+        <div class="servico-card animate-on-scroll" id="servico-lideranca">
+          <div class="servico-icon-wrapper">
+            <i class="ph ph-users-three"></i>
+          </div>
+          <h3 class="servico-title">Liderança & Gestão de Projetos</h3>
+          <p class="servico-desc">Não entrego apenas código — lidero processos. Com habilidades em gestão de pessoas e resolução de conflitos, garanto que cada projeto flua com clareza e eficiência.</p>
+          <ul class="servico-list">
+            <li><i class="ph ph-check-circle"></i> Liderança de equipe</li>
+            <li><i class="ph ph-check-circle"></i> Gestão de pessoas</li>
+            <li><i class="ph ph-check-circle"></i> Resolução de conflitos</li>
+          </ul>
+        </div>
+
+        <div class="servico-card animate-on-scroll" id="servico-performance">
+          <div class="servico-icon-wrapper">
+            <i class="ph ph-rocket-launch"></i>
+          </div>
+          <h3 class="servico-title">Performance & SEO</h3>
+          <p class="servico-desc">Sites rápidos ranqueiam melhor e convertem mais. Otimizo cada linha de código para garantir máxima performance e visibilidade nos mecanismos de busca.</p>
+          <ul class="servico-list">
+            <li><i class="ph ph-check-circle"></i> Core Web Vitals otimizado</li>
+            <li><i class="ph ph-check-circle"></i> SEO técnico on-page</li>
+            <li><i class="ph ph-check-circle"></i> Carregamento ultra-rápido</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / CONTATO ============ -->
+  <section class="section contato" id="contato">
+    <div class="container">
+      <div class="contato-wrapper animate-on-scroll">
+        <div class="contato-bg-effects">
+          <div class="contato-orb contato-orb-1"></div>
+          <div class="contato-orb contato-orb-2"></div>
+        </div>
+        <div class="contato-content">
+          <span class="section-tag">&lt;contato /&gt;</span>
+          <h2 class="contato-title">Pronta para transformar<br />a <span class="highlight">presença digital</span><br />da sua empresa?</h2>
+          <p class="contato-subtitle">
+            Vamos conversar sem compromisso. Me conta o seu desafio e juntos vamos encontrar a melhor solução digital para o seu negócio.
+          </p>
+          <div class="contato-buttons">
+            <a href="https://wa.me/55XXXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="btn-whatsapp">
+              <i class="ph ph-whatsapp-logo"></i>
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" class="btn btn-social" id="btn-linkedin">
+              <i class="ph ph-linkedin-logo"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" class="btn btn-social" id="btn-github">
+              <i class="ph ph-github-logo"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://instagram.com/seu-usuario" target="_blank" rel="noopener noreferrer" class="btn btn-social" id="btn-instagram">
+              <i class="ph ph-instagram-logo"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+          <p class="contato-note">
+            <i class="ph ph-clock"></i>
+            Respondo em até 24 horas — bora criar algo incrível juntos?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="#home" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>Flávia<span class="logo-dot">.</span>dev<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <p class="footer-copy">&copy; 2026 Flávia D. Silva. Todos os direitos reservados.</p>
+      <p class="footer-tagline">Feito com <span class="footer-heart">&hearts;</span> e muito café.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
