@@ -126,6 +126,18 @@ img {
   display: block;
 }
 
+.projeto-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top center;
+}
+
+.projeto-image-placeholder.has-image {
+  justify-content: flex-start;
+  padding-top: var(--space-lg);
+}
+
 ul {
   list-style: none;
 }
