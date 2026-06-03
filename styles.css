@@ -1522,7 +1522,7 @@ button {
 
 /* Efeito Hover */
 .whatsapp-flutuante:hover {
-    background-color: #5a2589;
+ background-color: #1da33e;
     transform: scale(1.1);
 }
 
